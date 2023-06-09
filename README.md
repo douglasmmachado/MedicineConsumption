@@ -12,3 +12,11 @@ Approach:
 - The third step involves the development and testing of clustering methods on the study's dataset.
 - The fourth step is to use prediction methods on the groups obtained from the previous ste
 - The final step is to write a scientific report explaining this approach and the results of the last steps.
+
+
+The notebooks are divided by:
+
+- Exploratory_Data_Analysis: First touch with the database, first insights and analysis;
+- Timeseries_Analysis: Exploring the database regarding the consumption of drugs over time;
+- Unified_Approach: Using the unified database for the 4 hospitals;
+- Division_Approach: Using the divided database for each hospital;
