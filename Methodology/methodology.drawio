@@ -1,17 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T13:26:42.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="qLpfGfPWLyjzkjRMImXd" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-22T10:15:45.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="4fFzlFBFaS2bdk--sQn6" version="21.5.0" type="github">
   <diagram name="Page-1" id="t-_hDB9_bV7U9jZggCBl">
-    <mxGraphModel dx="1909" dy="2147" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2745" dy="2479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="920" width="1020" height="2450" as="geometry" />
+        </mxCell>
         <mxCell id="yNCobiBItM3J3ok3ksJP-16" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2400" y="1340" width="799" height="360" as="geometry" />
         </mxCell>
         <mxCell id="TOSCLhitm1Dqb9ZpTsh4-42" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1280" y="910" width="960" height="690" as="geometry" />
         </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="SHqvhm3qR2kiJbIXEdHi-19" target="BiN6ibbszM4T-fpxPeLF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-19" value="Dividing database by hospital" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="380" y="1120" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="SHqvhm3qR2kiJbIXEdHi-29" target="BiN6ibbszM4T-fpxPeLF-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-29" value="Unified database" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="600" y="1120" width="140" height="80" as="geometry" />
@@ -19,8 +28,14 @@
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="SHqvhm3qR2kiJbIXEdHi-29" target="SHqvhm3qR2kiJbIXEdHi-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="SHqvhm3qR2kiJbIXEdHi-35" target="SHqvhm3qR2kiJbIXEdHi-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-35" value="Removing outliers for each drug" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="380" y="1360" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="SHqvhm3qR2kiJbIXEdHi-38" target="SHqvhm3qR2kiJbIXEdHi-51">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-38" value="Removing outliers for each drug" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="600" y="1360" width="140" height="80" as="geometry" />
@@ -34,26 +49,38 @@
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-41" value="Data inconsistance handling" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="490" y="1000" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BiN6ibbszM4T-fpxPeLF-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="SHqvhm3qR2kiJbIXEdHi-45" target="BiN6ibbszM4T-fpxPeLF-24" edge="1">
+        <mxCell id="BiN6ibbszM4T-fpxPeLF-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="SHqvhm3qR2kiJbIXEdHi-45" target="BiN6ibbszM4T-fpxPeLF-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-45" value="Transform categorical features" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="380" y="1960" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BiN6ibbszM4T-fpxPeLF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SHqvhm3qR2kiJbIXEdHi-48" target="BiN6ibbszM4T-fpxPeLF-26" edge="1">
+        <mxCell id="BiN6ibbszM4T-fpxPeLF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="SHqvhm3qR2kiJbIXEdHi-48" target="BiN6ibbszM4T-fpxPeLF-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-48" value="Transform categorical features" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="600" y="1960" width="140" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="SHqvhm3qR2kiJbIXEdHi-50" target="BiN6ibbszM4T-fpxPeLF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-50" value="Define common period for data usage" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="380" y="1480" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="SHqvhm3qR2kiJbIXEdHi-51" target="BiN6ibbszM4T-fpxPeLF-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-51" value="Define common period for data usage" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="600" y="1480" width="140" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="SHqvhm3qR2kiJbIXEdHi-60" target="BiN6ibbszM4T-fpxPeLF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-60" value="Aggregate data by drug, hospital, year and month" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="380" y="1720" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="SHqvhm3qR2kiJbIXEdHi-65" target="BiN6ibbszM4T-fpxPeLF-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-65" value="Aggregate data by drug, year and month" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="600" y="1720" width="140" height="80" as="geometry" />
@@ -114,16 +141,21 @@
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-99" value="Fit" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="2880" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SHqvhm3qR2kiJbIXEdHi-104" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.406;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" parent="1" source="SHqvhm3qR2kiJbIXEdHi-100" target="SHqvhm3qR2kiJbIXEdHi-89" edge="1">
+        <mxCell id="SHqvhm3qR2kiJbIXEdHi-108" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="SHqvhm3qR2kiJbIXEdHi-100" target="SHqvhm3qR2kiJbIXEdHi-107" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="SHqvhm3qR2kiJbIXEdHi-100" target="SHqvhm3qR2kiJbIXEdHi-89">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="780" y="2920" />
-              <mxPoint x="780" y="2673" />
+              <mxPoint x="560" y="2920" />
+              <mxPoint x="560" y="2680" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="SHqvhm3qR2kiJbIXEdHi-108" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="SHqvhm3qR2kiJbIXEdHi-100" target="SHqvhm3qR2kiJbIXEdHi-107" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-38" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="M2tUuZAeyHYkhMsrpUYP-37">
+          <mxGeometry x="-0.0373" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-12" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-100" value="Fit" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="2880" width="80" height="80" as="geometry" />
@@ -206,16 +238,16 @@
         <mxCell id="SHqvhm3qR2kiJbIXEdHi-140" value="DATA Treatment, clustering and forecasting phase" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="420" y="940" width="400" height="48.41" as="geometry" />
         </mxCell>
-        <mxCell id="BiN6ibbszM4T-fpxPeLF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="bCkLxKvPBURnQj97gKr4-1" target="SHqvhm3qR2kiJbIXEdHi-71" edge="1">
+        <mxCell id="BiN6ibbszM4T-fpxPeLF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="bCkLxKvPBURnQj97gKr4-1" target="SHqvhm3qR2kiJbIXEdHi-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BiN6ibbszM4T-fpxPeLF-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bCkLxKvPBURnQj97gKr4-1" target="SHqvhm3qR2kiJbIXEdHi-80" edge="1">
+        <mxCell id="BiN6ibbszM4T-fpxPeLF-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="bCkLxKvPBURnQj97gKr4-1" target="SHqvhm3qR2kiJbIXEdHi-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bCkLxKvPBURnQj97gKr4-1" value="Correlation analysis and feature selection" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="380" y="2200" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BiN6ibbszM4T-fpxPeLF-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bCkLxKvPBURnQj97gKr4-4" target="SHqvhm3qR2kiJbIXEdHi-81" edge="1">
+        <mxCell id="BiN6ibbszM4T-fpxPeLF-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="bCkLxKvPBURnQj97gKr4-4" target="SHqvhm3qR2kiJbIXEdHi-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bCkLxKvPBURnQj97gKr4-4" value="Correlation analysis and feature selection" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
@@ -449,22 +481,40 @@
           <mxGeometry x="2599.5" y="1351.59" width="400" height="48.41" as="geometry" />
         </mxCell>
         <mxCell id="yNCobiBItM3J3ok3ksJP-20" value="DETAILED" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="190" y="680" width="960" height="80" as="geometry" />
+          <mxGeometry x="110" y="680" width="960" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="BiN6ibbszM4T-fpxPeLF-1" target="SHqvhm3qR2kiJbIXEdHi-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BiN6ibbszM4T-fpxPeLF-1" value="Visualisation of data range and data composition" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="380" y="1240" width="140" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="BiN6ibbszM4T-fpxPeLF-2" target="SHqvhm3qR2kiJbIXEdHi-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BiN6ibbszM4T-fpxPeLF-2" value="Visualisation of data range and data composition" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="600" y="1240" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="BiN6ibbszM4T-fpxPeLF-4" target="SHqvhm3qR2kiJbIXEdHi-60">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BiN6ibbszM4T-fpxPeLF-4" value="Fill gaps in data for each medicine and hospital" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="380" y="1600" width="140" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="BiN6ibbszM4T-fpxPeLF-5" target="SHqvhm3qR2kiJbIXEdHi-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BiN6ibbszM4T-fpxPeLF-5" value="Fill gaps in data for each medicine and hospital" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="600" y="1600" width="140" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="BiN6ibbszM4T-fpxPeLF-6" target="SHqvhm3qR2kiJbIXEdHi-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BiN6ibbszM4T-fpxPeLF-6" value="Visualize period and replace outliers with median" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="380" y="1840" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="1" source="BiN6ibbszM4T-fpxPeLF-7" target="SHqvhm3qR2kiJbIXEdHi-48">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BiN6ibbszM4T-fpxPeLF-7" value="Visualize period and replace outliers with median" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="600" y="1840" width="140" height="80" as="geometry" />
@@ -507,7 +557,7 @@
         <mxCell id="BiN6ibbszM4T-fpxPeLF-20" value="New database composition based on clusters" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="159.94" y="3000" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BiN6ibbszM4T-fpxPeLF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BiN6ibbszM4T-fpxPeLF-21" target="SHqvhm3qR2kiJbIXEdHi-113" edge="1">
+        <mxCell id="BiN6ibbszM4T-fpxPeLF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="BiN6ibbszM4T-fpxPeLF-21" target="SHqvhm3qR2kiJbIXEdHi-113" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="230" y="3220" />
@@ -518,17 +568,77 @@
         <mxCell id="BiN6ibbszM4T-fpxPeLF-21" value="Building forecasting models based on clusters" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="159.94" y="3120" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BiN6ibbszM4T-fpxPeLF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BiN6ibbszM4T-fpxPeLF-24" target="bCkLxKvPBURnQj97gKr4-1" edge="1">
+        <mxCell id="BiN6ibbszM4T-fpxPeLF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" parent="1" source="BiN6ibbszM4T-fpxPeLF-24" target="bCkLxKvPBURnQj97gKr4-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BiN6ibbszM4T-fpxPeLF-24" value="Create moving average feature based on medicine" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="380" y="2080" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BiN6ibbszM4T-fpxPeLF-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BiN6ibbszM4T-fpxPeLF-26" target="bCkLxKvPBURnQj97gKr4-4" edge="1">
+        <mxCell id="BiN6ibbszM4T-fpxPeLF-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;" parent="1" source="BiN6ibbszM4T-fpxPeLF-26" target="bCkLxKvPBURnQj97gKr4-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BiN6ibbszM4T-fpxPeLF-26" value="Create moving average feature based on medicine" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="600" y="2080" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-18" value="1.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-19" value="1.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-20" value="2.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-21" value="2.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-25" value="2.3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-26" value="2.4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-28" value="2.5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-29" value="2.6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1890" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-30" value="2.7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-31" value="3.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-32" value="3.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-34" value="3.3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="299.94" y="2330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-35" value="3.4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="299.94" y="2450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-36" value="4.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-39" value="4.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2690" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-40" value="4.3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-41" value="4.4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="2905" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-42" value="5.1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="3050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-43" value="5.2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="3170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M2tUuZAeyHYkhMsrpUYP-44" value="5.3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="3290" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
