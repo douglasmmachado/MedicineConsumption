@@ -1,5 +1,5 @@
-# ExploratoryDataAnalysis
-Repo for exploratory data analysis for drug consumption in french hospitals
+# Medicine consumption forecasting
+Repo of developped work for drug consumption forecasting in french hospitals
 
 
 The healthcare sector in France is constantly evolving in a complex and dynamic environment. As hospital centers see their budgets shrinking over the years, they must optimize their resource management while ensuring the safety and quality of care for the patients they serve. Pharmaceutical logistics, which represents a significant portion of hospitals' budget, is an important lever for optimization. This optimization relies on a better understanding of the hospital's medication demand.
@@ -16,7 +16,8 @@ Approach:
 
 The notebooks are divided by:
 
-- Exploratory_Data_Analysis: First touch with the database, first insights and analysis;
-- Timeseries_Analysis: Exploring the database regarding the consumption of drugs over time;
-- Unified_Approach: Using the unified database for the 4 hospitals;
-- Division_Approach: Using the divided database for each hospital;
+- Division approach
+- Unified approach
+
+The division approach consists in the data treatment of the 4 different hospitals, testing different clustering techniques and forecasting.
+The unified approach uses the 4 hospitals data togheter and evaluate the effect of this approach in the forecasting results.
